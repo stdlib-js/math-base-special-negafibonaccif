@@ -54,7 +54,7 @@
     "@stdlib/constants-float32-ninf": "^0.2.2",
     "@stdlib/constants-float32-phi": "^0.0.2",
     "@stdlib/math-base-special-fibonaccif": "github:stdlib-js/math-base-special-fibonaccif#main",
-    "@stdlib/math-base-special-pow": "^0.3.0",
+    "@stdlib/math-base-special-powf": "github:stdlib-js/math-base-special-powf#main",
     "@stdlib/math-base-special-roundf": "github:stdlib-js/math-base-special-roundf#main",
     "@stdlib/math-base-special-sqrtf": "^0.2.2",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
