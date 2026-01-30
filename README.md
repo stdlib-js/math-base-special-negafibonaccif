@@ -80,6 +80,11 @@ with seed values `F_0 = 0` and `F_{-1} = 1`.
 ## Usage
 
 ```javascript
+import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-negafibonaccif/tags). For example,
+
+```javascript
 import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@v0.1.0-esm/index.mjs';
 ```
 
@@ -152,7 +157,7 @@ var v = negafibonaccif( NaN );
 
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@v0.1.0-esm/index.mjs';
+import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@esm/index.mjs';
 
 var v = linspace( -36, 0, 37 );
 
