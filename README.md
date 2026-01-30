@@ -80,6 +80,11 @@ with seed values `F_0 = 0` and `F_{-1} = 1`.
 ## Usage
 
 ```javascript
+import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-negafibonaccif/tags). For example,
+
+```javascript
 import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@v0.1.0-deno/mod.js';
 ```
 
@@ -147,7 +152,7 @@ var v = negafibonaccif( NaN );
 ```javascript
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@v0.1.0-deno/mod.js';
+import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@deno/mod.js';
 
 var v = linspace( -36, 0, 37 );
 
