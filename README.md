@@ -82,6 +82,11 @@ with seed values `F_0 = 0` and `F_{-1} = 1`.
 To use in Observable,
 
 ```javascript
+negafibonaccif = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-negafibonaccif/tags). For example,
+
+```javascript
 negafibonaccif = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@v0.1.0-umd/browser.js' )
 ```
 
@@ -94,7 +99,7 @@ var negafibonaccif = require( 'path/to/vendor/umd/math-base-special-negafibonacc
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -174,7 +179,7 @@ var v = negafibonaccif( NaN );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
