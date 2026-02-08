@@ -80,7 +80,7 @@ with seed values `F_0 = 0` and `F_{-1} = 1`.
 ## Usage
 
 ```javascript
-import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@esm/index.mjs';
+import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@v0.1.1-esm/index.mjs';
 ```
 
 #### negafibonaccif( n )
@@ -152,7 +152,7 @@ var v = negafibonaccif( NaN );
 
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@esm/index.mjs';
+import negafibonaccif from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonaccif@v0.1.1-esm/index.mjs';
 
 var v = linspace( -36, 0, 37 );
 
